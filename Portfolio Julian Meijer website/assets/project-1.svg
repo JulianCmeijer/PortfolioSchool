@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <style>
+      .bg{fill:#FAF8F5}
+      .border{fill:none;stroke:#E5E0D8;stroke-width:8}
+      .title{font:700 120px 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; fill:#1A1917; letter-spacing:-0.04em}
+      .sub{font:600 44px 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; fill:#5C5854; letter-spacing:0.08em}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1600" height="1200"/>
+  <rect class="border" x="40" y="40" width="1520" height="1120" rx="28"/>
+  <text class="title" x="800" y="520" text-anchor="middle">Project 1</text>
+  <text class="sub" x="800" y="595" text-anchor="middle">UX / UI</text>
+  <rect x="540" y="720" width="520" height="190" rx="95" fill="#C45C3E"/>
+  <circle cx="1020" cy="815" r="110" fill="#9EA0A3"/>
+</svg>

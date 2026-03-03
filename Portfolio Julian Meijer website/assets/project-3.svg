@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200">
+  <defs>
+    <style>
+      .bg{fill:#FAF8F5}
+      .border{fill:none;stroke:#E5E0D8;stroke-width:8}
+      .title{font:700 120px 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; fill:#1A1917; letter-spacing:-0.04em}
+      .sub{font:600 44px 'Space Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif; fill:#5C5854; letter-spacing:0.08em}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1600" height="1200"/>
+  <rect class="border" x="40" y="40" width="1520" height="1120" rx="28"/>
+
+  <circle cx="300" cy="520" r="140" fill="#C45C3E"/>
+  <circle cx="380" cy="660" r="160" fill="#9EA0A3" opacity="0.9"/>
+  <circle cx="470" cy="800" r="120" fill="#C45C3E" opacity="0.95"/>
+
+  <g stroke-width="18" stroke-linecap="round" opacity="0.85">
+    <path d="M1090 340 L1430 680" stroke="#C45C3E"/>
+    <path d="M1160 300 L1460 600" stroke="#9EA0A3"/>
+    <path d="M1200 360 L1490 650" stroke="#9EA0A3"/>
+    <path d="M1110 720 L1380 450" stroke="#C45C3E"/>
+    <path d="M1190 760 L1460 490" stroke="#9EA0A3"/>
+  </g>
+
+  <rect x="520" y="430" width="760" height="360" rx="28" fill="#FAF8F5" stroke="#E5E0D8" stroke-width="6"/>
+  <text class="title" x="900" y="575" text-anchor="middle">Project 3</text>
+  <text class="sub" x="900" y="650" text-anchor="middle">UX / UI</text>
+</svg>

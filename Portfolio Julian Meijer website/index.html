@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian Meijer — UX Designer</title>
+    <meta name="description" content="Portfolio van Julian Meijer — UX design, user research en product design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">Julian Meijer</a>
+            <ul class="nav-links">
+                <li><a href="#work">Werk</a></li>
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu openen">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="hero-label">UX/UI Designer</p>
+            <h1 class="hero-title">Hallo, Ik ben<span class="name">Julian Meijer</span></h1>
+            <p class="hero-desc">Ik ontwerp UX/UI designs gericht op gebruikerservaring en maak ik mijn eigen designs voor prototypes. </p>
+            <div class="hero-cta">
+                <a href="#work" class="btn btn-primary">Bekijk mijn werk</a>
+                <a href="#contact" class="btn btn-ghost">Neem contact op</a>
+            </div>
+        </section>
+
+        <section id="work" class="section work">
+            <h2 class="section-title">Mijn werk</h2>
+            <p class="section-intro">Een selectie van mijn recente UX projecten onderzoek, flows, interfaces en databases</p>
+
+            <div class="projects">
+                <article class="project-card" data-aos>
+                    <div class="project-image">
+                        <img class="project-image-img" src="assets/project-1.svg" alt="Project 1 cover">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-meta">TAAK 1 (UX/UI Design)</span>
+                        <h3 class="project-title">Project 1</h3>
+                        <p class="project-desc"> Omgeschrijving</p>
+                        <a href="#" class="project-link">Zie mijn project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos>
+                    <div class="project-image">
+                        <img class="project-image-img" src="assets/project_2.png" alt="Project 2 cover">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-meta">Grafisch ontwerp met illustrator</span>
+                        <h3 class="project-title">Posters designs</h3>
+                        <p class="project-desc"> Met dit project heb ik verschillende posters ontworpen met Illustrator. De focus lag op het uitbreiden van mijn Illustrator vaardigheden en experimenteren met compositie, kleur en typografie.</p>
+                        <a href="project2.html" class="project-link">Zie mijn project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-aos>
+                    <div class="project-image">
+                        <img class="project-image-img" src="assets/project-3.svg" alt="Project 3 cover">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-meta">TAAK 3 (UX/UI Design)</span>
+                        <h3 class="project-title">Project drie</h3>
+                        <p class="project-desc"> Omgeschrijving</p>
+                        <a href="#" class="project-link">Zie mijn project →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">Over mij</h2>
+                    <p class="about-text">Ik ben een UX/UI designer gefocust op het maken van gebruiksvriendelijke designs die gebruikers helpen om hun doelen te bereiken. Verder ben ik ook erg geïnteresseerd in data en kan ik goed omgaan met databases</p>
+                    <p class="about-text">Ik ben een erg creatief, sociaal en leergierig persoon. Heb een passie voor bakken en vind het leuk om buiten mijn school ook creatief bezig te zijn met tekenen en schilderen. Verder vind ik gamen en films ook erg belangrijk.</p>
+                    <div class="skills">
+                        <h3 class="skills-title">Wat kan ik?</h3>
+                        <ul class="skills-list">
+                            <li>Werken met statistieken en information design</li>
+                            <li>Figma & andere design tools</li>
+                            <li>Excel & databases</li>
+                            <li>UI design & design systems</li>
+                            <li>Prototyping</li>
+                            <li>Adobe Illustrator</li>
+                            <li>Op basis niveau in HTML, CSS en JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-placeholder">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2 class="section-title">Contactgevens</h2>
+            <p class="contact-intro">Ik kijk er naar uit om met je in contact te komen!</p>
+            <div class="contact-links">
+                <a href="mailto:julianmeijer2002@gmail.com" class="contact-link">E-mail: Julianmeijer2002@gmail.com</a>
+                <a href="tel:+31612345678" class="contact-link">Telefoon: +31 6 40 12 86 76</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Julian Meijer. </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
