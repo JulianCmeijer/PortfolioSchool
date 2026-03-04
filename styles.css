@@ -71,23 +71,133 @@ img {
     object-fit: contain;
 }
 
-/* Poster-galerij op project2-pagina */
-.poster-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-md);
+/* Poster-carousel op project2-pagina */
+.poster-carousel {
+    position: relative;
+    overflow: hidden;
 }
 
-.poster-gallery .project-image-img {
+.poster-carousel-track {
+    display: flex;
+    transition: transform 0.4s var(--transition);
+}
+
+.poster-slide {
+    flex: 0 0 100%;
+    opacity: 0;
+    transition: opacity 0.3s var(--transition);
+}
+
+.poster-slide.is-active {
+    opacity: 1;
+}
+
+.poster-slide .project-image-img {
     max-height: 420px;
     object-fit: contain;
     background: var(--bg);
 }
 
+.poster-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: rgba(250, 248, 245, 0.9);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.25rem;
+    padding: 0;
+}
+
+.poster-carousel-btn--prev {
+    left: 8px;
+}
+
+.poster-carousel-btn--next {
+    right: 8px;
+}
+
 @media (max-width: 900px) {
-    .poster-gallery {
-        grid-template-columns: 1fr;
+    .poster-slide .project-image-img {
+        max-height: 360px;
     }
+}
+
+.poster-caption {
+    margin-top: var(--space-sm);
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* Lightbox (vergrote afbeelding) */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+}
+
+.lightbox.is-open {
+    display: flex;
+}
+
+.lightbox-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.lightbox-dialog {
+    position: relative;
+    z-index: 1;
+    max-width: min(960px, 90vw);
+    max-height: min(640px, 80vh);
+    background: var(--bg);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    box-shadow: 0 18px 60px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.lightbox-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--radius);
+}
+
+.lightbox-caption {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--white);
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
 }
 
 /* --- Header & nav --- */
@@ -350,6 +460,11 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: var(--space-2xl);
     align-items: start;
+}
+
+/* Zorgt dat de visual (carousel) iets lager start, ter hoogte van de eerste paragraaf */
+.work .about-visual {
+    margin-top: var(--space-md);
 }
 
 .about-text {
