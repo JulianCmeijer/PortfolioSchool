@@ -1,128 +1,162 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free The Map — Julian Meijer</title>
-    <meta name="description" content="Case study: Free The Map data visualisatie en informatieontwerp door Julian Meijer.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="EcoConnect App Case Study - UX/UI Design for Sustainable Living">
+    <title>Lekkerder bij de boer | Case Study</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="index.html" class="logo">Julian Meijer</a>
+    <!-- Navigation (Same as main page for consistency) -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">DESIGN<span>PORTFOLIO</span> | JULIAN MEIJER</a>
             <ul class="nav-links">
-                <li><a href="index.html#work">Werk</a></li>
-                <li><a href="index.html#about">Over mij</a></li>
+                <li><a href="index.html#about">Over</a></li>
+                <li><a href="index.html#work">Mijn werk</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
-            <button class="nav-toggle" aria-label="Menu openen">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <p class="hero-label">Maken van database & visualisaties</p>
-            <h1 class="hero-title">Free The Map<span class="name">Nederland zonder grenzen</span></h1>
-            <p class="hero-desc">
-                Tijdens dit groepsproject hebben wij Nederland op een alternatieve manier gevisualiseerd zonder de traditionele kaartgrenzen. 
-                Wij waren erg vrij in onze aanpak hiervan, want vrijwel de enige voorwaarde was geen landsgrenzen te gebruiken. 
-                Vanuit hier zijn we op de Nederlandse kunst gekomen en Van Gogh. 
-            </p>
-            <div class="hero-cta">
-                <a href="index.html#work" class="btn btn-ghost">← Terug naar hoofdpagina</a>
-            </div>
-        </section>
-
-        <section class="section work">
-            <h2 class="section-title">Over het project</h2>
-            <p class="section-intro">
-                Ik begon dit project met veel deskresearch en het opdoen van inspiratie vanuit verschillende invalshoeken. Naarmate het project vorderde, maakten we een duidelijk plan van aanpak en verdiepten we ons verder in Van Gogh en het idee dat hij als kunstenaar minder Nederlands is dan vaak wordt voorgesteld. 
-                Dit project           </p>
-            <p class="section-intro">
-                Uit eindelijk kwamen wij met een het idee om een verhaal te vertellen over Van Gogh met als visualisatie dat elke ster op de website een Van Gogh schilderij is. Hiermee hebben we inspiratie genomen van De Sterrenacht van Van Gogh.
-            
-            </p>
-            <p class="section-intro">
-                Dit project werd begeleid door Henk van Houtum en begeleid door de HvA door Jan-Jaap Rijkema. 
-            </p>
-
-            <div class="about-grid">
-                <div class="about-content">
-                    <h3 class="skills-title">Het doel ervan</h3>
-                    <p class="about-text">
-                        Het doel was om meer creatief en vrij te denken dan je vaak al doet. Het was in het begin lastig om Nederland in te beelden zonder grenzen, maar naarmate de tijd lukte dit veel beter. Ook was het de bedoeling om samen als team te werken waarbij iedereen een andere functie had. 
-                    </p>
-
-                    <h3 class="skills-title">Proces</h3>
-                    <ul class="skills-list">
-                        <li>Deskresearch en inspiratie opzoeken</li>
-                        <li>Brainstormen en ideeën uitwerken</li>
-                        <li>Ideeën uitwerken en verder ontwikkelen</li>
-                        <li>Data verzamelen en dataset samenstellen</li>
-                        <li>Laatste nodigheden voltooien zoals lettertypes, kleur en meer</li>
-                    </ul>
-
-                    <h3 class="skills-title">Wat ik geleerd heb</h3>
-                    <p class="about-text">
-                        Wat ik vooral heb geleerd tijdens dit project was het maken van een dataset en effiënt werken in Excel. Ik heb hiervoor een dataset van ~700 variablen waarbij elke verschillende vormen van data heeft. In dit geval had elk schilderij een datum, plaats gemaakt, plaats museum, opmeting en afbeelding van schilderij. 
-                        
-                    </p>
-                </div>
-
-                <div class="about-visual">
-                    <div class="poster-carousel" data-carousel>
-                        <button class="poster-carousel-btn poster-carousel-btn--prev" type="button" aria-label="Vorige visual" data-carousel-prev>
-                            ‹
-                        </button>
-                        <div class="poster-carousel-track" data-carousel-track>
-                            <div class="poster-slide is-active" data-carousel-slide data-caption="Hier heb je een menu aan de linkerkant op snel en gemakkelijk te filteren op data. Verder zie je waar elk schilderij gemaakt is">
-                                <img class="project-image-img" src="assets/Project1.png" alt="Free The Map visualisatie overzicht">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="Begin scherm van het eindproduct. Hier kan je zien hoe het de Sterrenacht symobliseert">
-                                <img class="project-image-img" src="assets/Project1_begin.png" alt="Free The Map begin van de visualisatie">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="Hier is met de muis over een bolletje(ster) gehoverd zodat de data over het schilderij naar voren komt. Elk schilderij is gelinked naar de dataset">
-                                <img class="project-image-img" src="assets/Project2_schilderij.png" alt="Free The Map visualisatie schilderij">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="Hier zie je de schilderij op jaar. Van Links(1881) naar rechts(1890)">
-                                <img class="project-image-img" src="assets/Project2_jaar.png" alt="Free The Map visualisatie per jaar">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="Hier zie je een gedeelte van de dataset. Elke kolom heeft een andere vorm van data en elke rij is een schilderij.">
-                                <img class="project-image-img" src="assets/dataset1.png" alt="Free The Map extra visual">
-                            </div>
-                        </div>
-                        <button class="poster-carousel-btn poster-carousel-btn--next" type="button" aria-label="Volgende visual" data-carousel-next>
-                            ›
-                        </button>
-                    </div>
-                    <p class="poster-caption" data-carousel-caption>Beschrijving afbeeldingaaaaaaa 1 – Free The Map.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div class="lightbox" data-lightbox>
-        <div class="lightbox-backdrop" data-lightbox-close></div>
-        <div class="lightbox-dialog">
-            <button class="lightbox-close" type="button" aria-label="Sluit vergroting" data-lightbox-close>×</button>
-            <img class="lightbox-img" data-lightbox-img src="" alt="">
-            <p class="lightbox-caption" data-lightbox-caption></p>
         </div>
-    </div>
+    </nav>
 
+    <!-- Case Study Hero -->
+    <section class="case-study-hero">
+        <div class="container">
+            <a href="index.html#work" class="back-link"><i class="fas fa-arrow-left"></i> Hoofdpagina</a>
+            <h1 class="fade-in">Lekkerder bij de boer app</h1>
+            <p class="fade-in">Lokaal je het eten op je bord krijgen</p>
+            <div class="case-study-meta fade-in">
+                </div>
+                <div class="meta-item">
+                    <h4>Programma's</h4>
+                    <p>Figma, Miro en Affinity</p>
+                </div>
+            </div>
+            <a href="https://www.figma.com/proto/eXoz9DPEY7MuUuKVdr2Kxe/Project-Boer?node-id=7-13&p=f&viewport=747%2C1192%2C0.39&t=lHQ48CrJ2zAcIcA8-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=7%3A13&page-id=0%3A1" target="_blank" class="btn btn-primary fade-in">Bekijk Figma prototype</a>
+        </div>
+    </section>
+
+    <!-- Case Study Content -->
+    <section class="case-study-content section">
+        <div class="container">
+            <!-- Project Overview -->
+            <div class="case-study-section">
+                <h2>Overzicht project</h2>
+                <div class="case-study-image">
+                    <img src="assets/images/boer_alg.png" alt="Lekkerder bij de boer app design screens" loading="lazy">
+                </div>
+            </div>
+
+            <!-- The Challenge -->
+            <div class="case-study-section">
+                <h2>Hoe zorg ik ervoor dat er meer connectie is tussen de consument en de boer?</h2>
+            </div>
+
+            <!-- Design Process -->
+            <div class="case-study-section">
+                <h2>Design proces</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <i class="fas fa-search"></i>
+                        <h3>Onderzoek</h3>
+                        <p>Ik ging op zoek naar boerderijen die hun producten verkopen en keek of ze een website hadden. Daaruit bleek dat veel kleine boerenwinkels geen website hebben en vooral gebruikmaken van borden langs de weg.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Wireframe</h3>
+                        <p>Ik begon met het maken van wireframes om de structuur van de app neer te zetten. Ik koos voor een eenvoudige online winkel app.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-palette"></i>
+                        <h3>Visual Design</h3>
+                        <p>Het begon bij mij met het maken van een kleur palet voor de app. Ik wou iets doen met groen, want naar mijn mening associeer ik dat met boerderij en natuurlijke producten. Dit was de branding die mij het meeste mee gaf.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-vial"></i>
+                        <h3>Testen</h3>
+                        <p>Nadat ik de app interactief had gemaakt op Figma had ik aan vrienden en familie gevraagt hoe zij de app zouden navigeren. Feedback gevraagt en dat verwerkt.</p>
+                    </div>
+                </div>
+
+                <!-- iPhone Wireframes Section -->
+                <div class="iphone-frame-container">
+                    <div class="iphone-frame">
+                        <img src="assets/images/wireframe start.png" alt="iPhone 16 Wireframe hoofdpagina">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/wireframe home.png" alt="iPhone 16 Wireframe home page">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/wireframe - product.png" alt="iPhone 16 Wireframe product pagina">
+                    </div>
+                </div>
+
+                <!-- Color Palette and Typography Section -->
+                <div class="specs-section">
+                    <h3>Kleurpalet & Typografie</h3>
+                    <div class="specs-image">
+                        <img src="assets/images/Huisstijl.png" alt="Huisstijl">
+                    </div>
+                </div>
+
+                <!-- Sitemap Section -->
+                <div class="specs-section">
+                    <h3>Sitemap</h3>
+                    <div class="specs-image">
+                        <img src="assets/images/sitemap_boer.png" alt="Sitemap van het project" loading="lazy">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final Deliverables -->
+            <div class="case-study-section">
+                <h2>Conclusie</h2>
+                <p>De app biedt een gebruiksvriendelijke manier om boeren te verbinden en te helpen bij het vinden van lokale alternatieve van supermarkten. Het is een nuttig hulpmiddel voor boeren en consummers alike.</p>
+               <div class="iphone-frame-container">
+                    <div class="iphone-frame">
+                        <img src="assets/images/start_p1.png" alt="iPhone 16 start van app">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Groenten.png" alt="iPhone 16 Geselecteerde algemene categorie">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Winkelmandje.png" alt="iPhone 16 Winkelmandje">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Case Study Footer Navigation -->
+    <section class="case-study-footer section bg-light">
+        <div class="container">
+            <div class="footer-nav">
+                <a href="project3.html" class="footer-nav-link prev">
+                    <i class="fas fa-chevron-left"></i> Vorig project
+                </a>
+                <a href="project2.html" class="footer-nav-link next">
+                    Volgend project <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as main page) -->
     <footer class="footer">
-        <p>© <span id="year"></span> Julian Meijer.</p>
+        <div class="container">
+            <p>&copy; 2026 UX/UI Portfolio van Julian Meijer</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>
-

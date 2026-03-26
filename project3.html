@@ -1,130 +1,163 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project drie — Julian Meijer</title>
-    <meta name="description" content="Case study: UX/UI project drie door Julian Meijer.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="HealthSync Wearable Case Study - UX Design for Personal Health Monitoring">
+    <title>NAAM | Case Study</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="index.html" class="logo">Julian Meijer</a>
+    <!-- Navigation (Same as main page for consistency) -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">DESIGN<span>PORTFOLIO</span> | JULIAN MEIJER</a>
             <ul class="nav-links">
-                <li><a href="index.html#work">Werk</a></li>
-                <li><a href="index.html#about">Over mij</a></li>
+                <li><a href="index.html#about">Over</a></li>
+                <li><a href="index.html#work">Mijn werk</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
-            <button class="nav-toggle" aria-label="Menu openen">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main>
-        <section class="hero">
-            <p class="hero-label">UX/UI Design in Figma</p>
-            <h1 class="hero-title">Verschillende UX/Ui designs<span class="name">Voor apps en websites</span></h1>
-            <p class="hero-desc">
-                Hier laat ik verschillende UX/UI designs zien die ik heb gemaakt. Hier keek ik als ontwerper vooral naar hiërarchie, typografie en kleurpalet. Deze ontwerpen zijn ondertussen best oud. Met mijn huidige ervaring kan ik veel beter.
-            </p>
-            <div class="hero-cta">
-                <a href="index.html#work" class="btn btn-ghost">← Terug naar hoofdpagina</a>
+    <!-- Case Study Hero -->
+    <section class="case-study-hero">
+        <div class="container">
+            <a href="index.html#work" class="back-link"><i class="fas fa-arrow-left"></i> Hoofdpagina</a>
+            <h1 class="fade-in">Dit kan je niet zien. Hoe kom je hier?</h1>
+            <p class="fade-in">Korte slogan/tekst</p>
+            <div class="case-study-meta fade-in">
+               </div>
+                <div class="meta-item">
+                    <h4>Programma's</h4>
+                    <p>Figma, Miro en Affinity</p>
+                </div>
             </div>
-        </section>
+            </div>
+            <a href="https://www.figma.com" target="_blank" class="btn btn-primary fade-in">Zie Figma Prototype</a>
+        </div>
+    </section>
 
-        <section class="section work">
-            <h2 class="section-title">Over het project</h2>
-            <p class="section-intro">
-               Dit waren school- en oefenprojecten om te beginnen met Figma en Adobe XD. Het de bedoeling om beter bekend te worden met de tool en de lay-out ervan.
-            </p>
+    <!-- Case Study Content -->
+    <section class="case-study-content section">
+        <div class="container">
+            <!-- Project Overview -->
+            <div class="case-study-section">
+                <h2>Overzicht project</h2>
+                <div class="case-study-image">
+                    <img src="assets/images/boer_alg.png" alt="Project 3" loading="lazy">
+                </div>
+            </div>
 
-            <div class="about-grid">
-                <div class="about-content">
+            <!-- The Challenge -->
+            <div class="case-study-section">
+                <h2>Pakkende zin die het probleem vertelt</h2>
+            </div>
 
-
-                    <h3 class="skills-title">Proces</h3>
-                    <ul class="skills-list">
-                        <li>Opdracht analyseren en voorbereidingen nemen</li>
-                        <li>Onderzoek doen naar dolgroep en daarop een style creeëren</li>
-                        <li>Visuele stijl bepalen (kleur, typografie, componenten)</li>
-                        <li>High-fi schermen ontwerpen</li>
-                        <li>Prototype maken en feedback verwerken</li>
-                    </ul>
-                    <h3 class="skills-title">Resultaat & learnings</h3>
-                    <p class="about-text">
-                        Ik heb vooral geleerd hiërarchie in mijn ontwerps te gebruiken en kleurpalletten te gebruiken. Verder ben ik hierdoor en tutorials beter bekeend met Figma. Hierdoor is Figma ook mijn voornaamste keuze wanneer het gaat om UX/UI design.
-                    </p>
+            <!-- Design Process -->
+            <div class="case-study-section">
+                <h2>Design Proces</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <i class="fas fa-search"></i>
+                        <h3>Onderzoek</h3>
+                        <p>Collaborated with health professionals to understand which data points are most valuable for daily health tracking. Conducted research on accessible design for health apps.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Ideevorming</h3>
+                        <p>Explored various ways to represent health metrics through simple, intuitive metaphors. Developed a gamified reward system for achieving wellness goals.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Wireframe</h3>
+                        <p>Implemented high-contrast visuals, adjustable font sizes, and voice-over support. Focused on creating a clear hierarchy for critical health alerts.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-palette"></i>
+                        <h3>Visual Design</h3>
+                        <p>Het begon bij mij met het maken van een kleur palet voor de app. Ik wou iets doen met groen, want naar mijn mening associeer ik dat met boerderij en natuurlijke producten. Dit was de branding die mij het meeste mee gaf.</p>
+                    </div>
                 </div>
 
-                <div class="about-visual">
-                    <div class="poster-block">
-                        <div class="poster-carousel" data-carousel>
-                            <button class="poster-carousel-btn poster-carousel-btn--prev" type="button" aria-label="Vorige scherm" data-carousel-prev>
-                                ‹
-                            </button>
-                            <div class="poster-carousel-track" data-carousel-track>
-                                <div class="poster-slide is-active" data-carousel-slide data-caption="Beschrijving scherm 1 — hoofdscherm van het ontwerp.">
-                                    <img class="project-image-img" src="assets/p3_1.png" alt="Project 3 scherm 1">
-                                </div>
-                                <div class="poster-slide" data-carousel-slide data-caption="Beschrijving scherm 2 — variatie of detailpagina.">
-                                    <img class="project-image-img" src="assets/p3_2.png" alt="Project 3 scherm 2">
-                                </div>
-                                <div class="poster-slide" data-carousel-slide data-caption="Beschrijving scherm 3 — voorbeeld van een interactie of flow.">
-                                    <img class="project-image-img" src="assets/p3_3.png" alt="Project 3 scherm 3">
-                                </div>
-                                <div class="poster-slide" data-carousel-slide data-caption="Beschrijving scherm 4 — extra state of bevestigingsscherm.">
-                                    <img class="project-image-img" src="assets/p3_4.png" alt="Project 3 scherm 4">
-                                </div>
-                            </div>
-                            <button class="poster-carousel-btn poster-carousel-btn--next" type="button" aria-label="Volgende scherm" data-carousel-next>
-                                ›
-                            </button>
-                        </div>
-                        <p class="poster-caption" data-carousel-caption>Beschrijving scherm 1 — hoofdscherm van het ontwerp.</p>
+                <!-- iPhone Wireframes Section -->
+                <div class="iphone-frame-container">
+                    <div class="iphone-frame">
+                        <img src="https://via.placeholder.com/430x932?text=Wireframe+1" alt="iPhone 16 Wireframe 1">
                     </div>
+                    <div class="iphone-frame">
+                        <img src="https://via.placeholder.com/430x932?text=Wireframe+2" alt="iPhone 16 Wireframe 2">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="https://via.placeholder.com/430x932?text=Wireframe+3" alt="iPhone 16 Wireframe 3">
+                    </div>
+                </div>
 
-                    <div class="poster-block" style="margin-top: var(--space-lg);">
-                        <div class="poster-carousel" data-carousel>
-                            <button class="poster-carousel-btn poster-carousel-btn--prev" type="button" aria-label="Vorige scherm" data-carousel-prev>
-                                ‹
-                            </button>
-                            <div class="poster-carousel-track" data-carousel-track>
-                                <div class="poster-slide is-active" data-carousel-slide data-caption="Beschrijving scherm 5 — tweede flow binnen dit project.">
-                                    <img class="project-image-img" src="assets/p31.png" alt="Project 3 scherm 5">
-                                </div>
-                                <div class="poster-slide" data-carousel-slide data-caption="Beschrijving scherm 6 — variant met andere layout.">
-                                    <img class="project-image-img" src="assets/p32.png" alt="Project 3 scherm 6">
-                                </div>
-                                <div class="poster-slide" data-carousel-slide data-caption="Beschrijving scherm 7 — voorbeeld van een mobiele versie of breakpoint.">
-                                    <img class="project-image-img" src="assets/p33.png" alt="Project 3 scherm 7">
-                                </div>
-                                <div class="poster-slide" data-carousel-slide data-caption="Beschrijving scherm 8 — samenvattend overzichtsscherm.">
-                                    <img class="project-image-img" src="assets/p34.png" alt="Project 3 scherm 8">
-                                </div>
-                            </div>
-                            <button class="poster-carousel-btn poster-carousel-btn--next" type="button" aria-label="Volgende scherm" data-carousel-next>
-                                ›
-                            </button>
-                        </div>
-                        <p class="poster-caption" data-carousel-caption>Beschrijving scherm 5 — tweede flow binnen dit project.</p>
+                <!-- Color Palette and Typography Section -->
+                <div class="specs-section">
+                    <h3>Kleurpalet & Typografie</h3>
+                    <div class="specs-image">
+                        <img src="https://via.placeholder.com/1200x600?text=Color+Palette+and+Typography+Specifications" alt="Huisstyle">
+                    </div>
+                </div>
+
+                <!-- Sitemap Section -->
+                <div class="specs-section">
+                    <h3>Sitemap</h3>
+                    <div class="specs-image">
+                        <img src="https://via.placeholder.com/1200x600?text=Sitemap" alt="Sitemap van het project" loading="lazy">
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
 
+            <!-- Final Deliverables -->
+            <div class="case-study-section">
+                <h2>Conclusie</h2>
+                <p>Tekst Conclusie</p>
+               <div class="iphone-frame-container">
+                    <div class="iphone-frame">
+                        <img src="assets/images/start_p1.png" alt="iPhone 16 start van app">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Groenten.png" alt="iPhone 16 Geselecteerde algemene categorie">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Winkelmandje.png" alt="iPhone 16 Winkelmandje">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Case Study Footer Navigation -->
+    <section class="case-study-footer section bg-light">
+        <div class="container">
+            <div class="footer-nav">
+                <a href="project2.html" class="footer-nav-link prev">
+                    <i class="fas fa-chevron-left"></i> Vorig project
+                </a>
+                <a href="project1.html" class="footer-nav-link next">
+                    Volgend project <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as main page) -->
     <footer class="footer">
-        <p>© <span id="year"></span> Julian Meijer.</p>
+        <div class="container">
+            <p>&copy; 2026 UX/UI Portfolio van Julian Meijer</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>
-

@@ -1,115 +1,165 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Posters designs — Julian Meijer</title>
-    <meta name="description" content="Case study: posters designs in Adobe Illustrator door Julian Meijer.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="FinTrack Dashboard Case Study - Product Design for Small Business Finance">
+    <title>CheeRRuny | Case Study</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="index.html" class="logo">Julian Meijer</a>
+    <!-- Navigation (Same as main page for consistency) -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">DESIGN<span>PORTFOLIO</span> | JULIAN MEIJER</a>
             <ul class="nav-links">
-                <li><a href="index.html#work">Werk</a></li>
-                <li><a href="index.html#about">Over mij</a></li>
+                <li><a href="index.html#about">Over</a></li>
+                <li><a href="index.html#work">Mijn werk</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
-            <button class="nav-toggle" aria-label="Menu openen">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <p class="hero-label">Grafisch ontwerp</p>
-            <h1 class="hero-title">Posters designs<span class="name">Adobe Illustrator</span></h1>
-            <p class="hero-desc">
-                Voor dit project heb ik een serie posters ontworpen in Adobe Illustrator.
-                Ik focuste me op compositie, kleurgebruik en typografie en op het uitbreiden van mijn vaardigheden in Illustrator.
-            </p>
-            <div class="hero-cta">  
-                <a href="index.html#work" class="btn btn-ghost">← Terug naar hoofdpagina</a>
-            </div>
-        </section>
-
-        <section class="section work">
-            <h2 class="section-title">Over het project</h2>
-            <p class="section-intro">
-                Deze posters heb ik gemaakt voor een schoolproject waarbij ik complete vrijheid had in mijn ontwerpen. Ik heb hierin grotendeels inspiratie gehaald van al bestaande ontwerpen. Een groot inspiratie van mij is Elliothisacoolguy op Youtube.
-            </p>
-
-            <div class="about-grid">
-                <div class="about-content">
-                    <h3 class="skills-title">Het doel ervan</h3>
-                    <p class="about-text">
-                        Mijn doel was om mijn grafische vaardigheden te verbeteren en meer te leren over Illustrator. Ook vond ik het belangrijk om bekender te zijn met de lay-out van Illustrator en hoe alles zo efficiënt mogelijk kan. 
-                    </p>
-
-                    <h3 class="skills-title">Proces</h3>
-                    <ul class="skills-list">
-                        <li>Visuele inspiratie opzoeken en bestuderen ervan</li>
-                        <li>Kleurpalet kiezen en testen in verschillende varianten</li>
-                        <li>Typografie en hiërarchie uitwerken</li>
-                        <li>Posters uitwerken en exporteren</li>
-                    </ul>
-
-                    <h3 class="skills-title">Wat ik geleerd heb</h3>
-                    <p class="about-text">
-                        Door dit project heb ik meer grip gekregen op hiërarchie en compositie in een layout. Ik werk nu efficiënter met Illustrator en ik ben in staat om sneller en beter te werken. Verder weet ik meer wat de tools doen en kan ik illustrator beter gebruiken beter navigeren.
-                    </p>
-                </div>
-
-                <div class="about-visual">
-                    <div class="poster-carousel" data-carousel>
-                        <button class="poster-carousel-btn poster-carousel-btn--prev" type="button" aria-label="Vorige poster" data-carousel-prev>
-                            ‹
-                        </button>
-                        <div class="poster-carousel-track" data-carousel-track>
-                            <div class="poster-slide is-active" data-carousel-slide data-caption="">
-                                <img class="project-image-img" src="assets/Poster1.png" alt="Poster 1 ontwerp">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="">
-                                <img class="project-image-img" src="assets/Poster2.png" alt="Poster 2 ontwerp">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="">
-                                <img class="project-image-img" src="assets/Poster3.png" alt="Poster 3 ontwerp">
-                            </div>
-                            <div class="poster-slide" data-carousel-slide data-caption="">
-                                <img class="project-image-img" src="assets/Poster4.png" alt="Poster 4 ontwerp">
-                            </div>
-                        </div>
-                        <button class="poster-carousel-btn poster-carousel-btn--next" type="button" aria-label="Volgende poster" data-carousel-next>
-                            ›
-                        </button>
-                    </div>
-                    <p class="poster-caption" data-carousel-caption>Beschrijving poster 1.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <div class="lightbox" data-lightbox>
-        <div class="lightbox-backdrop" data-lightbox-close></div>
-        <div class="lightbox-dialog">
-            <button class="lightbox-close" type="button" aria-label="Sluit vergroting" data-lightbox-close>×</button>
-            <img class="lightbox-img" data-lightbox-img src="" alt="">
-            <p class="lightbox-caption" data-lightbox-caption></p>
         </div>
-    </div>
+    </nav>
 
+    <!-- Case Study Hero -->
+    <section class="case-study-hero">
+        <div class="container">
+            <a href="index.html#work" class="back-link"><i class="fas fa-arrow-left"></i> Hoofdpagina</a>
+            <h1 class="fade-in">CheeRRuny</h1>
+            <p class="fade-in">Gejuich met elke stap!</p>
+            <div class="case-study-meta fade-in">
+              </div>
+                <div class="meta-item">
+                    <h4>Programma's</h4>
+                    <p>Figma, Miro en Affinity</p>
+                </div>
+            </div>
+            </div>
+            <a href="https://www.figma.com/proto/m9m3U8J4LmngNHThJp0w3H/Project-Run?node-id=1-2&t=cDhapQ6Eo6RPmIju-1" target="_blank" class="btn btn-primary fade-in">Zie Figma prototype</a>
+        </div>
+    </section>
+
+    <!-- Case Study Content -->
+    <section class="case-study-content section">
+        <div class="container">
+            <!-- Project Overview -->
+            <div class="case-study-section">
+                <h2>Overzicht project</h2>
+                <div class="case-study-image">
+                    <img src="assets/images/run_alg.png" alt="Project 2 Run" loading="lazy">
+                </div>
+            </div>
+
+            <!-- The Challenge -->
+            <div class="case-study-section">
+                <h2>Hoe zorg ik ervoor dat de gebruiker zich meer gemotiveerd voelt tijdens hun belangrijke race?</h2>
+            </div>
+
+            <!-- Design Process -->
+            <div class="case-study-section">
+                <h2>Design Proces</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <i class="fas fa-search"></i>
+                        <h3>Onderzoek</h3>
+                        <p>Ik moest begrijpen wanneer renners zich het meest gemotiveerd voelen. Toen kwam ik erachter dat steun in hun ren journey erg belangrijk was. En wat zorgt voor het meeste steun? Het toejuichen van de renners.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3>Wireframes</h3>
+                        <p>In mijn hoofd had ik al dat ik velle kleuren wou gebruiken. Voor de wireframes ging ik ook voor speelsere vormen en simplistische inhoud.</p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-palette"></i>
+                        <h3>Visual design</h3>
+                        <p>Een marathon of andere lange afstanden zijn erg lastig, fysiek en mentaal. Mijn doel was om positieve ermee te stimuleren. Velle kleuren en afbeeldingen zouden hierbij moeten helpen. </p>
+                    </div>
+                    <div class="process-step">
+                        <i class="fas fa-vial"></i>
+                        <h3>Testen</h3>
+                        <p>Gelukkig had ik vrienden die ook af en toe rennen als hobby. Zij kwamen snel met feedback om ook muziek te integreren en mogelijk zelf routes te maken. Dit zal dan zeker mijn volgende stap zijn hierin.</p>
+                    </div>
+                </div>
+
+                <!-- iPhone Wireframes Section -->
+                <div class="iphone-frame-container">
+                    <div class="iphone-frame">
+                        <img src="assets/images/Run_wireframe_1.png" alt="iPhone 16 Wireframe 1">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Run_wireframe_2.png" alt="iPhone 16 Wireframe 2">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Run_wireframe_3.png" alt="iPhone 16 Wireframe 3">
+                    </div>
+                </div>
+
+                <!-- Color Palette and Typography Section -->
+                <div class="specs-section">
+                    <h3>Kleurpalet & Typografie</h3>
+                    <div class="specs-image">
+                        <img src="assets/images/Huisstijl- cheeRRuny.png" alt="Huisstyle CheeRRuny">
+                    </div>
+                </div>
+
+                <!-- Sitemap Section -->
+                <div class="specs-section">
+                    <h3>Sitemap</h3>
+                    <div class="specs-image">
+                        <img src="assets/images/sidemap_run.png" alt="Sitemap van het project" loading="lazy">
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Final Deliverables -->
+            <div class="case-study-section">
+                <h2>Conclusie</h2>
+                <p>De app zorgt voor een samenhangende community en steun voor elkaar. Ik hoop hierbij in de toekomst ook de mensen te intergreren die zelf niet racen, maar graag hun vrienden of familie willen toejuichen.</p>
+                <div class="deliverables-grid">
+                        <div class="iphone-frame-container">
+                    <div class="iphone-frame">
+                        <img src="assets/images/Hoofdscherm_cheer.png" alt="iPhone 16 Wireframe 1">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Juich-scherm.png" alt="iPhone 16 Wireframe 2">
+                    </div>
+                    <div class="iphone-frame">
+                        <img src="assets/images/Juichen uploaden.png" alt="iPhone 16 Wireframe 3">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Case Study Footer Navigation -->
+    <section class="case-study-footer section bg-light">
+        <div class="container">
+            <div class="footer-nav">
+                <a href="project1.html" class="footer-nav-link prev">
+                    <i class="fas fa-chevron-left"></i> Volgend project
+                </a>
+                <a href="project3.html" class="footer-nav-link next">
+                    Vorig project <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as main page) -->
     <footer class="footer">
-        <p>© <span id="year"></span> Julian Meijer.</p>
+        <div class="container">
+            <p>&copy; 2026 UX/UI Portfolio van Julian Meijer</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
 </body>
 </html>
-
